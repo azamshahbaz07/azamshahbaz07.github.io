@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------
+# Site settings. Edit these first.
+# ---------------------------------------------------------------
+title: Azam Shahbaz
+tagline: Computer Engineering @ Georgia Tech · C++ systems software & digital design
+description: >-
+  ePortfolio of Azam Shahbaz, a Computer Engineering student at Georgia Tech
+  building low-latency C++ systems software and digital hardware.
+
+# Contact / social. Leave a value blank ("") to hide it everywhere.
+email: "azamshahbaz07@gmail.com"
+github: azamshahbaz07
+
+# Home-page photo. Drop your photo in assets/img/ and point this at it.
+headshot: /assets/img/headshot.svg
+linkedin: azamshahbaz07
+
+# GitHub Pages URL settings.
+# If the repo is named  azamshahbaz07.github.io  keep baseurl: ""
+# If the repo has any other name (e.g. "eportfolio"), set baseurl: "/eportfolio"
+url: "https://azamshahbaz07.github.io"
+baseurl: ""
+
+# Navigation order = the "About → Projects → Contact" flow the rubric asks for.
+nav:
+  - { title: Home,         url: / }
+  - { title: About,        url: /about/ }
+  - { title: Projects,     url: /projects/ }
+  - { title: Experience,   url: /experience/ }
+  - { title: Career Goals, url: /career/ }
+  - { title: Resume,       url: /resume/ }
+  - { title: Contact,      url: /contact/ }
+
+# Projects live in _projects/ — one Markdown file per project.
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope: { path: "", type: projects }
+    values: { layout: project }
+  - scope: { path: "" }
+    values: { layout: default }
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

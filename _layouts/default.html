@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav-button" aria-hidden="true"><span></span><span></span><span></span></label>
+      <nav class="site-nav" aria-label="Main">
+        {% for item in site.nav %}
+          {% assign active = false %}
+          {% if item.url == "/" and page.url == "/" %}{% assign active = true %}
+          {% elsif item.url != "/" and page.url contains item.url %}{% assign active = true %}{% endif %}
+          <a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© {{ site.time | date: "%Y" }} {{ site.title }}</span>
+      <span class="footer-links">
+        {% if site.email != "" %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+        {% if site.github != "" %}<a href="https://github.com/{{ site.github }}">GitHub</a>{% endif %}
+        {% if site.linkedin != "" %}<a href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>{% endif %}
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

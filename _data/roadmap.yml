@@ -1,0 +1,41 @@
+# Career roadmap — edit stages here; the Career Goals page renders them in order.
+# Set now: true on the stage you're currently in.
+- stage: Fall 2026
+  title: Build the foundation
+  now: true
+  steps:
+    - ECE 2035 (C and RISC-V assembly) to strengthen low-level programming
+    - Finish and document my C++ systems projects on GitHub
+    - Interview for summer 2027 systems and infrastructure internships
+
+- stage: Spring 2027
+  title: Go deeper on systems
+  steps:
+    - Reach out to Georgia Tech faculty in computer architecture and distributed systems about research
+    - Re-solve core data-structure and algorithm problems in C++, not just Python
+    - Start an FPGA project to close my hardware-acceleration gap
+
+- stage: Summer 2027
+  title: Industry experience
+  steps:
+    - Complete a systems, infrastructure, or low-latency internship
+    - Ship production code in a large distributed codebase
+
+- stage: 2027 – 2028
+  title: Specialize through my threads
+  steps:
+    - "ECE 4100 (Advanced Systems & Architecture), ECE 4122, CS 4240, and an AI hardware/software co-design course"
+    - Use BS/MS double-counting to start graduate coursework early
+    - Earn the B.S. in Computer Engineering (May 2028)
+
+- stage: 2028 – 2029
+  title: Master's in ECE
+  steps:
+    - Focus on computer systems and software, with VLSI and digital design as a second area
+    - "Graduate with an M.S. ECE (target: December 2029)"
+
+- stage: Long term
+  title: Low-latency systems engineer
+  steps:
+    - Build performance-critical infrastructure at a top tech company or trading firm
+    - Work at the hardware/software boundary, on systems where the worst case matters

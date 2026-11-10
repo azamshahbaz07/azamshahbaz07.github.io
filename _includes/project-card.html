@@ -1,0 +1,9 @@
+<a class="card" href="{{ include.p.url | relative_url }}">
+  {% if include.p.image %}<img src="{{ include.p.image | relative_url }}" alt="{{ include.p.image_alt }}" loading="lazy">{% endif %}
+  <div class="card-body">
+    {% if include.p.badge %}<span class="badge">{{ include.p.badge }}</span>{% endif %}
+    <h3>{{ include.p.title }}</h3>
+    <p>{{ include.p.summary }}</p>
+    {% if include.p.stack %}<ul class="tags small">{% for t in include.p.stack limit:4 %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+  </div>
+</a>
