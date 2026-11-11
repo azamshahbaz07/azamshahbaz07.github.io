@@ -7,11 +7,11 @@ permalink: /career/
 
 ## Where I want to go
 
-My long-term goal is to be a **systems engineer working on low-latency, performance-critical infrastructure**: the kind of software where a few microseconds or one rare edge case decides whether a system works. I see myself at a large technology company building infrastructure that millions of people depend on without noticing, or at a trading firm, where latency is the product. Either way, I want to work at the boundary between software and hardware, because that's where my background in mechanical, electrical, and computer engineering gives me an advantage.
+My long-term goal is to be a **systems engineer working on low-latency, performance-critical infrastructure**: the kind of software where a few microseconds or one rare edge case decides whether a system works. I'd like to help build infrastructure that a lot of people depend on without noticing. I'm especially interested in the boundary between software and hardware, where my background in mechanical, electrical, and computer engineering has been most useful so far.
 
 ## Where I am now
 
-I have real experience at both ends of the stack. I've written kernel drivers in industry, ported analog circuits to a new process, and built C++ systems projects from scratch. I want to be honest about my gaps too. My computer architecture knowledge is mostly coursework and one pipelined RV32I core, my FPGA experience is still early, and I need more practice solving algorithm problems in C++ under time pressure. Most of my roadmap is aimed at those gaps.
+So far I've had the chance to work at both ends of the stack: I've written kernel drivers during an internship, ported analog circuits to a new process in a research lab, and built software projects on my own. I also have clear gaps. My computer architecture knowledge is mostly coursework and one pipelined RV32I core, my FPGA experience is still early, and I need more practice solving algorithm problems under time pressure. Most of my roadmap is aimed at those gaps.
 
 ## How I get from here to there
 
@@ -32,4 +32,4 @@ I have real experience at both ends of the stack. I've written kernel drivers in
 
 ## Why the BS/MS
 
-The BS/MS program lets me double-count courses, so I can finish a master's in about one extra year. For the roles I want, graduate coursework in computer systems and architecture is a real advantage, and it gives me time for research with faculty while I'm still at Georgia Tech. Keeping summers free for internships is part of the plan, so I graduate with both depth and industry experience.
+The BS/MS program lets me double-count courses, so I can finish a master's in about one extra year. For the roles I want, graduate coursework in computer systems would help a lot, and the program gives me time for research with faculty while I'm still at Georgia Tech. Keeping summers free for internships is part of the plan, so I graduate with both depth and industry experience.

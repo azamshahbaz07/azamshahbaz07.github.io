@@ -2,10 +2,10 @@
 # Site settings. Edit these first.
 # ---------------------------------------------------------------
 title: Azam Shahbaz
-tagline: Computer Engineering @ Georgia Tech · C++ systems software & digital design
+tagline: Computer Engineering @ Georgia Tech · systems software & computer architecture
 description: >-
   ePortfolio of Azam Shahbaz, a Computer Engineering student at Georgia Tech
-  building low-latency C++ systems software and digital hardware.
+  interested in systems software and computer architecture.
 
 # Contact / social. Leave a value blank ("") to hide it everywhere.
 email: "azamshahbaz07@gmail.com"
