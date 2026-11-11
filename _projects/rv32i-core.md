@@ -8,7 +8,6 @@ stack: [Verilog, RISC-V, RTL design, Simulation]
 image: /assets/img/rv32i-pipeline.svg
 image_alt: Five-stage pipeline diagram with fetch, decode, execute, memory, and writeback stages
 image_caption: Classic five-stage pipeline structure (diagram I made)
-repo: https://github.com/azamshahbaz07
 ---
 
 ## The Problem
@@ -25,4 +24,4 @@ Building the core changed how I write software. I now think about how loads, bra
 
 ## Other hardware work
 
-I've also built an Ethernet frame parser in RTL, a memory-mapped dot-product accelerator, and a custom dual-channel oscilloscope. Write-ups for these are coming soon.
+I've also built an Ethernet frame parser in RTL, a memory-mapped dot-product accelerator, and a custom dual-channel oscilloscope.

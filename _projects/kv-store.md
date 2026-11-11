@@ -8,7 +8,6 @@ stack: [C++20, Linux, CMake, epoll, CRC32]
 image: /assets/img/kv-store.svg
 image_alt: Architecture diagram of the key-value store showing the TCP server, in-memory index, and append-only log files
 image_caption: Architecture of the store (diagram I made)
-repo: https://github.com/azamshahbaz07
 ---
 
 ## The Problem

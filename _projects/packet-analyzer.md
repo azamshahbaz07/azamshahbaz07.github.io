@@ -8,7 +8,6 @@ stack: [C++20, Linux, CMake, Python, libFuzzer]
 image: /assets/img/packet-pipeline.svg
 image_alt: Pipeline diagram showing capture, lock-free queues, parser threads, and flow table
 image_caption: Capture-to-flow-table pipeline (diagram I made)
-repo: https://github.com/azamshahbaz07
 ---
 
 ## The Problem

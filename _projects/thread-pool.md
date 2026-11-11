@@ -8,7 +8,6 @@ stack: [C++20, Linux, Valgrind, TSan/ASan]
 image: /assets/img/thread-pool.svg
 image_alt: Diagram of worker threads with their own deques, one thread stealing work from another
 image_caption: Each worker owns a deque; idle workers steal from the other end (diagram I made)
-repo: https://github.com/azamshahbaz07
 ---
 
 ## The Problem
